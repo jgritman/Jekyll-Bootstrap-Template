@@ -1,11 +1,11 @@
 # Jekyll Bootstrap Template
 
-This is a forked version of [Kris Brown's jekyll template][https://github.com/krisb/jekyll-template/] modified to provide a layout driven by [Twitter Bootstrap][http://twitter.github.com/bootstrap/].
+This is a forked version of [Kris Brown's jekyll template](https://github.com/krisb/jekyll-template/) modified to provide a layout driven by [Twitter Bootstrap](http://twitter.github.com/bootstrap/).
 
 Additional differences between this and the original are:
 
- * [Less][http://lesscss.org/] is used instead of Compass for CSS.
- * The pages render HTML5 semantic elements (nav, header, article, time) where appropriate.  The design was based on [this article from HTML5 Doctor][http://html5doctor.com/designing-a-blog-with-html5/].
+ * [Less](http://lesscss.org/) is used instead of Compass for CSS.
+ * The pages render HTML5 semantic elements (nav, header, article, time) where appropriate.  The design was based on [this article from HTML5 Doctor](http://html5doctor.com/designing-a-blog-with-html5/).
  * The 'html5 shim' is used to support these HTML5 elements older versions of IE.
  * A 'recent entries' navigation bar was added on the left hand side of the page.
  * A Google site search was added to the top of the page.
