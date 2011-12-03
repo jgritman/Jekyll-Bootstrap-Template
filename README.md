@@ -1,4 +1,18 @@
-# Jekyll Template
+# Jekyll Bootstrap Template
+
+This is a forked version of [Kris Brown's jekyll template][https://github.com/krisb/jekyll-template/] modified to provide a layout driven by [Twitter Bootstrap][http://twitter.github.com/bootstrap/].
+
+Additional differences between this and the original are:
+
+ * [Less][http://lesscss.org/] is used instead of Compass for CSS.
+ * The pages render HTML5 semantic elements (nav, header, article, time) where appropriate.  The design was based on [this article from HTML5 Doctor][http://html5doctor.com/designing-a-blog-with-html5/].
+ * The 'html5 shim' is used to support these HTML5 elements older versions of IE.
+ * A 'recent entries' navigation bar was added on the left hand side of the page.
+ * A Google site search was added to the top of the page.
+
+The original documentation is below.  The only difference in the installation is that the lessc executable is required on the path when running rake.
+
+# Original documentation from Jekyll Template
 
 This is a template project for jekyll that you can clone and customise to suit your needs.  Its quite opinionated in what it provides, the idea is to get you up and running with feed support, analytics and comments and feedback.  This is meant for a standalone blog, not for [github pages](http://pages.github.com/)
 
