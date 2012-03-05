@@ -9,6 +9,9 @@ Additional differences between this and the original are:
  * The 'html5 shim' is used to support these HTML5 elements older versions of IE.
  * A 'recent entries' navigation bar was added on the left hand side of the page.
  * A Google site search was added to the top of the page.
+ * Deploy to Heroku through rake added based on [this blog post](http://joshuawood.net/how-to-deploy-jekyll-slash-octopress-to-heroku/).
+
+A sample version of the template is available at http://electric-autumn-8147.heroku.com/.
 
 The original documentation is below.  The only difference in the installation is that the lessc executable is required on the path when running rake.
 
