@@ -34,17 +34,16 @@
   </head>
   <body>
 
-    <div class="topbar">
-      <div class="fill">
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
         <nav class="container">
           <ul class="nav">
             <li><a href="/">Home</a></li>
             <li><a href="/about.html">About</a></li>
           </ul>
-          <form method="get" action="http://www.google.com/search" class="pull-right">
-            <input class="input-small" type="text" name="q" size="31" maxlength="255" value="">
+          <form method="get" action="http://www.google.com/search" class="navbar-search pull-right">
+            <input type="text" name="q" class="span2 search-query" placeholder="Search" maxlength="255" value="">
             <input name="sitesearch" type="hidden" value="{{ site.domain }}">
-            <button class="btn" type="submit">Search</button>
           </form>
         </nav>
       </div>
@@ -57,10 +56,10 @@
           <h1>{{ site.title }}</h1>
         </header>
         <div class="row">
-          <div id="content" class="span12">
+          <div id="content" class="span9">
             {{ content }}
           </div>
-          <nav class="span4">
+          <nav class="span3">
             <h3>Recent Posts</h3>
             <div id="posts">
               {% for post in site.posts limit:10%}
